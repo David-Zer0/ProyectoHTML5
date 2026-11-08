@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
@@ -21,5 +22,164 @@
             <li><a href="formulario.html">contacto</a></li>
         </ul>
     </nav>
+     <main>
+
+        <section>
+            <h2>Solicita una reparación</h2>
+
+            <p>
+                Rellena el siguiente formulario para solicitar información
+                sobre una reparación o presupuesto.
+            </p>
+
+            <p>
+                Los campos marcados como obligatorios deben completarse.
+            </p>
+        </section>
+
+        <form name="solicitud_reparacion" action="#" method="post">
+
+            <fieldset>
+                <legend>Datos de contacto ficticios</legend>
+
+                <label for="nombre">Nombre (obligatorio):</label>
+                <input type="text" id="nombre" name="nombre"
+                       required minlength="2" maxlength="30"
+                       placeholder="Ejemplo: Juan">
+
+                <br><br>
+
+                <label for="email">Correo electrónico (obligatorio):</label>
+                <input type="email" id="email" name="email"
+                       required placeholder="ejemplo@correo.com">
+
+                <br><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password"
+                       minlength="6" maxlength="15"
+                       placeholder="Mínimo 6 caracteres">
+
+                <br><br>
+
+                <label for="fecha">Fecha preferida para la reparación:</label>
+                <input type="date" id="fecha" name="fecha"
+                       min="2026-11-08">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Información del equipo</legend>
+
+                <label for="equipo">Tipo de equipo:</label>
+
+                <select id="equipo" name="equipo" required>
+                    <option value="" selected disabled>Selecciona un equipo</option>
+                    <option value="sobremesa">Ordenador de sobremesa</option>
+                    <option value="portatil">Portátil</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <br><br>
+
+                <label for="antiguedad">Antigüedad del equipo (años):</label>
+                <input type="number" id="antiguedad" name="antiguedad"
+                       min="0" max="30" step="1" value="3">
+
+                <br><br>
+
+                <p>¿Qué tipo de servicio necesitas?</p>
+
+                <input type="radio" id="reparacion" name="servicio"
+                       value="reparacion" checked>
+                <label for="reparacion">Reparación</label>
+
+                <input type="radio" id="mantenimiento" name="servicio"
+                       value="mantenimiento">
+                <label for="mantenimiento">Mantenimiento</label>
+
+                <input type="radio" id="montaje" name="servicio"
+                       value="montaje">
+                <label for="montaje">Montaje</label>
+
+                <br><br>
+
+                <p>Componentes que podrían necesitar revisión:</p>
+
+                <input type="checkbox" id="ram" name="componentes"
+                       value="ram">
+                <label for="ram">Memoria RAM</label>
+
+                <input type="checkbox" id="disco" name="componentes"
+                       value="disco">
+                <label for="disco">Disco duro o SSD</label>
+
+                <input type="checkbox" id="grafica" name="componentes"
+                       value="grafica">
+                <label for="grafica">Tarjeta gráfica</label>
+
+                <br><br>
+
+                <label for="archivo">Adjuntar imagen del equipo:</label>
+                <input type="file" id="archivo" name="archivo"
+                       accept="image/*,.pdf">
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Detalles de la solicitud</legend>
+
+                <label for="descripcion">Describe brevemente el problema:</label>
+
+                <br>
+
+                <textarea id="descripcion" name="descripcion"
+                          rows="5" cols="40"
+                          maxlength="300"
+                          placeholder="Ejemplo: El ordenador se apaga solo."></textarea>
+
+                <br><br>
+
+                <label for="urgencia">Nivel de urgencia:</label>
+
+                <br>
+
+                <input type="range" id="urgencia" name="urgencia"
+                       min="1" max="5" step="1" value="3">
+
+                <small>1 = Baja urgencia / 5 = Muy urgente</small>
+
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" name="enviar" value="Enviar solicitud">
+
+            <input type="reset" name="limpiar" value="Limpiar formulario">
+
+            <button type="submit" name="solicitar" value="presupuesto">
+                Solicitar presupuesto
+            </button>
+
+        </form>
+
+    </main>
+    <br>
+
+    <footer>
+        <address>
+            Contacto:
+            <a href="mailto:info@bytefix.com">info@bytefix.com</a>
+        </address>
+
+        <p>Autor: Francisco David</p>
+        <p>Curso: 1ºDAM</p>
+        <p>Año: 2026</p>
+    </footer>
+
 </body>
 </html>
