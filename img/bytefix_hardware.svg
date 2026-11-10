@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Componentes de hardware</title>
+  <desc id="descripcion">Placa base con procesador, memoria RAM y conexiones.</desc>
+  <rect x="35" y="25" width="250" height="170" rx="14" fill="#172b3a" stroke="#36b7c9" stroke-width="5"/>
+  <g fill="none" stroke="#36b7c9" stroke-width="4" stroke-linecap="round">
+    <path d="M75 70 H115 V88 M205 75 H245 V105 M75 150 H105 V132 M205 150 H245 V130 M160 45 V65 M160 155 V178"/>
+  </g>
+  <rect x="112" y="72" width="96" height="82" rx="8" fill="#263f50" stroke="#f0b44d" stroke-width="4"/>
+  <rect x="130" y="88" width="60" height="50" rx="5" fill="#f0b44d"/>
+  <path d="M140 100 H180 M140 112 H180 M140 124 H168" stroke="#172b3a" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#f0b44d" stroke-width="4" stroke-linecap="round">
+    <path d="M125 64 V72 M145 64 V72 M165 64 V72 M185 64 V72 M125 154 V162 M145 154 V162 M165 154 V162 M185 154 V162"/>
+    <path d="M104 88 H112 M104 108 H112 M104 128 H112 M208 88 H216 M208 108 H216 M208 128 H216"/>
+  </g>
+  <rect x="225" y="45" width="18" height="48" rx="3" fill="#72c58b" stroke="#d7f3df" stroke-width="2"/>
+  <path d="M229 53 H239 M229 63 H239 M229 73 H239 M229 83 H239" stroke="#172b3a" stroke-width="3"/>
+  <g fill="#f0b44d">
+    <rect x="70" y="174" width="18" height="8" rx="2"/><rect x="94" y="174" width="18" height="8" rx="2"/>
+    <rect x="118" y="174" width="18" height="8" rx="2"/><rect x="184" y="174" width="18" height="8" rx="2"/>
+    <rect x="208" y="174" width="18" height="8" rx="2"/><rect x="232" y="174" width="18" height="8" rx="2"/>
+  </g>
+  <g fill="#d9e5eb">
+    <circle cx="52" cy="42" r="4"/><circle cx="268" cy="42" r="4"/>
+    <circle cx="52" cy="178" r="4"/><circle cx="268" cy="178" r="4"/>
+  </g>
+</svg>

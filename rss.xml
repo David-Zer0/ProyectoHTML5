@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ByteFix - Reparación y venta de hardware</title>
+        <link>https://github.com/David-Zer0/Practica5HTML/</link>
+        <description>Web de ByteFix dedicada a la reparación, mantenimiento y venta de componentes informáticos.</description>
+        <language>es</language>
+
+        <item>
+            <title>Cómo mejorar el rendimiento de tu ordenador</title>
+            <link>https://github.com/David-Zer0/Practica5HTML/blob/main/blog.html</link>
+            <guid>https://github.com/David-Zer0/Practica5HTML/blob/main/blog.html</guid>
+            <pubDate>Tue, 10 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Consejos para optimizar el rendimiento de tu ordenador mediante limpieza, actualizaciones y mejoras de hardware.</description>
+        </item>
+
+        <item>
+            <title>Precios de componentes y servicios de reparación</title>
+            <link>hhttps://github.com/David-Zer0/Practica5HTML/blob/main/tabla.html</link>
+            <guid>https://github.com/David-Zer0/Practica5HTML/blob/main/tabla.html</guid>
+            <pubDate>Tue, 10 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Consulta los precios de componentes informáticos y los costes y tiempos estimados de nuestros servicios de reparación.</description>
+        </item>
+
+        <item>
+            <title>Galería de hardware y contenido multimedia</title>
+            <link>https://github.com/David-Zer0/Practica5HTML/blob/main/galeria.html</link>
+            <guid>https://github.com/David-Zer0/Practica5HTML/blob/main/galeria.html</guid>
+            <pubDate>Tue, 10 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Descubre imágenes de componentes informáticos, ventiladores animados, vídeos y audios relacionados con el hardware.</description>
+        </item>
+
+        <item>
+            <title>Solicita una reparación o presupuesto</title>
+            <link>https://github.com/David-Zer0/Practica5HTML/blob/main/formulario.html</link>
+            <guid>https://github.com/David-Zer0/Practica5HTML/blob/main/formulario.html</guid>
+            <pubDate>Tue, 10 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Formulario de contacto para solicitar información, reparaciones y presupuestos de equipos informáticos.</description>
+        </item>
+
+    </channel>
+</rss>
