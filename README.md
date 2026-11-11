@@ -13,8 +13,8 @@ El objetivo de esta página web es ofrecer información sobre diferentes compone
 
 ## Sitio publicado
 
-- **Web en GitHub Pages:** [Abrir sitio](URL-DE-GITHUB-PAGES)
-- **Repositorio:** [Abrir repositorio](https://github.com/David-Zer0/Practica5HTML)
+- **Web en GitHub Pages:** [Abrir sitio] (https://david-zer0.github.io/ProyectoHTML5/index.html)
+- **Repositorio:** [Abrir repositorio](https://github.com/David-Zer0/ProyectoHTML5)
 
 ## Estructura del proyecto
 
@@ -61,19 +61,19 @@ Para comprobar que los documentos cumplen con los estándares correspondientes, 
 
 Se incluye la captura del resultado obtenido al validar los documentos HTML del proyecto.
 
-![Resultado de validación HTML](img/validacion-html.png)
+![Resultado de validación HTML](img/ValidacionHtml.png)
 
 ### CSS
 
 Se incluye la captura del resultado obtenido al validar la hoja de estilos CSS.
 
-![Resultado de validación CSS](img/validacion-css.png)
+![Resultado de validación CSS](img/ValidacionCss.png)
 
 ### RSS
 
 Se incluye la captura del resultado obtenido al validar el documento RSS.
 
-![Resultado de validación RSS](img/validacion-rss.png)
+![Resultado de validación RSS](img/ValidacionRss.png)
 
 ## Dificultades encontradas
 
@@ -131,15 +131,3 @@ Esto permite que los archivos puedan trasladarse conjuntamente sin tener que mod
 El proyecto se ha organizado utilizando una estructura HTML semántica y una hoja de estilos independiente en `css/estilos.css`.
 
 Esto facilita la incorporación y modificación de estilos en futuras prácticas, permitiendo cambiar la apariencia de las páginas sin tener que modificar continuamente su contenido HTML.
-
-## Fuentes y licencias
-
-Los recursos utilizados en el proyecto se organizan según su procedencia:
-
-- **Logotipo y gráficos SVG:** elaborados para el proyecto ByteFix.
-- **Contenido textual:** redactado y adaptado para la temática ficticia de la empresa.
-- **Imágenes:** utilizadas para representar diferentes componentes y elementos informáticos. Se debe indicar la fuente original y la licencia de aquellas imágenes que no sean propias.
-- **Audio:** archivos utilizados como recursos multimedia del proyecto. Se debe indicar su procedencia y licencia si no son de elaboración propia.
-- **Vídeo:** archivo relacionado con el montaje de un ordenador. Se debe indicar su autoría y licencia correspondiente.
-
-Los recursos externos deben utilizarse respetando las condiciones de sus respectivas licencias y reconociendo a sus autores cuando sea necesario.
